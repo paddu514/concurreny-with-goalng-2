@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+   func demo(value string) {
+  for i := 0; i < value; i++{
+
+  fmt.Println(i)
+}
+}
+
+  fun main() {
+  fmt.Println("concurrency with goroutune")
+
+
+ demo(7)
+ demo(7)
+}
